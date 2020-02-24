@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2017", "es6", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+        "*": ["*", "../*"],
+        "react-native": ["node_modules/react-native-web*"],
+        "react-native*": ["node_modules/react-native-web*"]
+    },
+    "typeRoots": [
+      "@types",
+      "./@types",
+      "node_modules/@types",
+      "../isofw-node/src/@types",
+      "../isofw-node/node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "src/testUtil/**/*.ts",
+    "src/testUtil/**/*.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+$topBtnDist: 5pt
+#root
+  display: block
+body, html
+  width: 100vw
+  height: 100vh
+div, body, html
+  display: flex
+  flex-grow: 1
+.inlineBlock
+  display: inline-block
+  flex-grow: 0
+.noFlex
+  display: block
+  flex-grow: 0
+.flex,.flex1
+  display: flex
+.flex1
+  flex: 1
+.flexRow
+  flex-direction: row !important
+.flexColumn
+  flex-direction: column !important
+.alignCenter
+  align-items: center
+.justifyCenter
+  justify-content: center
+.backButton
+  position: fixed
+  top: $topBtnDist
+  left: $topBtnDist
+  z-index: 99
+  width: 2.5rem
+  height: 2.5rem
+  opacity: 0.4
+  background-color: rgba(0,0,0,0.1)
+  display: flex
+  justify-content: center
+  align-items: center
+  color: black
+  border-radius: 2rem
+  font-size: 2rem
+.infoButton
+  position: fixed
+  top: $topBtnDist
+  right: $topBtnDist
+  z-index: 99
+  width: 2.5rem
+  height: 2.5rem
+  opacity: 0.4
+  background-color: rgba(0,0,0,0.1)
+  display: flex
+  justify-content: center
+  align-items: center
+  color: black
+  border-radius: 2rem
+  font-size: 2rem
+.colorContainer
+  width: 100%
+  div
+    display: block
+.noPaddingTop
+  padding-top: 0pt !important
+.makeSquare
+  border-radius: 0pt !important
+// Set your brand colors
+$purple: #4d186e;
+$pink: #e91e63;
+$brown: #795548;
+$beige-light: #4db6ac;
+$beige-lighter: #80cbc4;
+
+// Update Bulma's global variables
+$primary: #4D186E;
+$secondary: #bd2025;
+$link: #693987;
+$link-invert: white;
+$info: #64b5f6;
+$info-dark: #1976d2;
+// TODO
+$success: #64dd17;
+$warning: #fdd835;
+$danger: #e53935;
+
+$margin: 1rem
+
+$standardTransparency: 0.2;
+$transparentPrimary: rgba($primary, $standardTransparency);
+$transparentInfo: rgba($info, $standardTransparency);
+
+$pagination-current-background-color: rgba($info, 0.3);
+$pagination-current-border-color: rgba($info, 0.3);
+
+$tabs-toggle-link-active-background-color: $primary
+$tabs-toggle-link-active-border-color: #6f3cbc
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/pagination.sass";
+@import "../node_modules/bulma/sass/elements/tag.sass";
+@import "../node_modules/bulma/sass/elements/table.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+@import "../node_modules/bulma/sass/components/tabs.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+
+.overlay
+  position: fixed
+  left: 0px
+  top: 0px
+  background-color: rgba(0,0,0, 0.6)
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 100vh
+  z-index: 9
+  flex-direction: column
+  color: white
+  text-align: center
+  h1
+    font-size: 3rem
+  h2
+    font-size: 2rem
+  h3
+    font-size: 1.5rem
+.divMargin
+  div
+    margin-bottom: 1rem

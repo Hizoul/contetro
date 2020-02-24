@@ -1,0 +1,6 @@
+declare module "@pixi/app"
+declare module "@pixi/ticker"
+declare module "@pixi/loaders"
+declare module "@pixi/graphics"
+declare module "@pixi/core"
+declare module "pixi.js"

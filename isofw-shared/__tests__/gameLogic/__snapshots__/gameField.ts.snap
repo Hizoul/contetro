@@ -1,0 +1,1502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The GameField game should end at some point: empty Game 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "c": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "d": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+  },
+  "blocks": Array [],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField game should end at some point: finished Game 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      3,
+      4,
+      5,
+      4,
+      3,
+    ],
+    "b": Array [
+      3,
+      5,
+      3,
+      2,
+      5,
+    ],
+    "c": Array [
+      5,
+      4,
+      4,
+      4,
+      2,
+    ],
+    "d": Array [
+      5,
+      5,
+      5,
+      3,
+      1,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 4,
+        "y": 0,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 5,
+        "y": 2,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 3,
+        "y": 4,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 8,
+        "y": 2,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 2,
+        "y": 3,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 2,
+        "y": 6,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 1,
+        "y": 7,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 1,
+        "y": 8,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 4,
+        "y": 8,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 0,
+        "y": 8,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 6,
+        "y": 11,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 7,
+        "y": 11,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 8,
+        "y": 15,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 7,
+        "y": 16,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 7,
+        "y": 17,
+      },
+      "rotation": 7,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 1,
+        "y": 12,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 0,
+        "y": 14,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 2,
+        "y": 15,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 1,
+        "y": 16,
+      },
+      "rotation": 4,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 6,
+        "y": 12,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "c",
+      "position": Object {
+        "x": 5,
+        "y": 16,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 1,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "d",
+      "position": Object {
+        "x": 4,
+        "y": 17,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "a",
+      "position": Object {
+        "x": 4,
+        "y": 18,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 1,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 18,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 0,
+  },
+  "gameOver": true,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 0,
+          "x": 4,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+          "orientation": 2,
+          "x": 5,
+          "y": 2,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+          "orientation": 0,
+          "x": 3,
+          "y": 4,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+          "orientation": 1,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 1,
+          "x": 8,
+          "y": 2,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "c",
+          "orientation": 2,
+          "x": 2,
+          "y": 3,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+          "orientation": 6,
+          "x": 2,
+          "y": 6,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+          "orientation": 0,
+          "x": 1,
+          "y": 7,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 0,
+          "x": 1,
+          "y": 8,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+          "orientation": 2,
+          "x": 4,
+          "y": 8,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+          "orientation": 3,
+          "x": 0,
+          "y": 8,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "a",
+          "orientation": 1,
+          "x": 6,
+          "y": 11,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+          "orientation": 1,
+          "x": 7,
+          "y": 11,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "c",
+          "orientation": 2,
+          "x": 8,
+          "y": 15,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+          "orientation": 0,
+          "x": 7,
+          "y": 16,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+          "orientation": 7,
+          "x": 7,
+          "y": 17,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "b",
+          "orientation": 1,
+          "x": 1,
+          "y": 12,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "c",
+          "orientation": 6,
+          "x": 0,
+          "y": 14,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "d",
+          "orientation": 6,
+          "x": 2,
+          "y": 15,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+          "orientation": 4,
+          "x": 1,
+          "y": 16,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+          "orientation": 1,
+          "x": 6,
+          "y": 12,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 1,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 1,
+          "from": "c",
+          "orientation": 0,
+          "x": 5,
+          "y": 16,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+          "orientation": 2,
+          "x": 4,
+          "y": 17,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 1,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 1,
+          "from": "a",
+          "orientation": 0,
+          "x": 4,
+          "y": 18,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "b",
+          "orientation": 1,
+          "x": 0,
+          "y": 18,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "c",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 2,
+          "from": "c",
+          "reason": 0,
+        },
+        "type": 2,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "d",
+          "reason": 0,
+        },
+        "type": 2,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "a",
+          "reason": 0,
+        },
+        "type": 2,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 0,
+          "from": "b",
+          "reason": 0,
+        },
+        "type": 2,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+  ],
+  "rollIndex": 4,
+}
+`;
+
+exports[`The GameField game should end at some point: visualized FIeld 1`] = `
+"
+1ooo00o00o
+113300o0oo
+10o33220o3
+o000o22333
+oo333o1222
+222o3o112o
+o12ooo11oo
+o11ooo11oo
+o1oooo01oo
+o3oooo00oo
+33112220oo
+311o2ooooo
+o0000ooooo
+oo333ooooo
+oooo33oooo
+22o333oooo
+022oo222oo
+0oooo2oo1o
+0oooo11o11
+0ooo11ooo1
+"
+`;
+
+exports[`The GameField should initialize a player on startup: After Init 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+  },
+  "blocks": Array [],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: after placing block 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      4,
+      5,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 3,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: moved back 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      4,
+      5,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 3,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: moved block to the right 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      4,
+      5,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 3,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: rotated back 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      4,
+      5,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 3,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: rotated block 1`] = `
+GameField {
+  "blockRestrictions": Object {
+    "a": Array [
+      5,
+      5,
+      5,
+      5,
+      5,
+    ],
+    "b": Array [
+      5,
+      5,
+      5,
+      4,
+      5,
+    ],
+  },
+  "blocks": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "b",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+  "controlType": Object {
+    "a": 0,
+    "b": 0,
+  },
+  "gameOver": false,
+  "log": GameLog {
+    "log": Array [
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "block": 3,
+          "from": "b",
+          "orientation": 3,
+          "x": 0,
+          "y": 0,
+        },
+        "type": 1,
+      },
+      Object {
+        "payload": Object {
+          "block": 4,
+          "from": "a",
+        },
+        "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 17,
+        },
+        "type": 3,
+      },
+    ],
+  },
+  "playerColors": Object {},
+  "players": Array [
+    "a",
+    "b",
+  ],
+  "rollIndex": 0,
+}
+`;
+
+exports[`The GameField should initialize a player on startup: there should be plays available 1`] = `
+Array [
+  Object {
+    "rotation": 0,
+    "x": 0,
+  },
+  Object {
+    "rotation": 1,
+    "x": 0,
+  },
+  Object {
+    "rotation": 3,
+    "x": 0,
+  },
+  Object {
+    "rotation": 0,
+    "x": 1,
+  },
+  Object {
+    "rotation": 1,
+    "x": 1,
+  },
+  Object {
+    "rotation": 3,
+    "x": 1,
+  },
+  Object {
+    "rotation": 0,
+    "x": 2,
+  },
+  Object {
+    "rotation": 1,
+    "x": 2,
+  },
+  Object {
+    "rotation": 2,
+    "x": 2,
+  },
+  Object {
+    "rotation": 3,
+    "x": 2,
+  },
+  Object {
+    "rotation": 0,
+    "x": 3,
+  },
+  Object {
+    "rotation": 1,
+    "x": 3,
+  },
+  Object {
+    "rotation": 2,
+    "x": 3,
+  },
+  Object {
+    "rotation": 3,
+    "x": 3,
+  },
+  Object {
+    "rotation": 0,
+    "x": 4,
+  },
+  Object {
+    "rotation": 1,
+    "x": 4,
+  },
+  Object {
+    "rotation": 2,
+    "x": 4,
+  },
+  Object {
+    "rotation": 3,
+    "x": 4,
+  },
+  Object {
+    "rotation": 0,
+    "x": 5,
+  },
+  Object {
+    "rotation": 1,
+    "x": 5,
+  },
+  Object {
+    "rotation": 2,
+    "x": 5,
+  },
+  Object {
+    "rotation": 3,
+    "x": 5,
+  },
+  Object {
+    "rotation": 0,
+    "x": 6,
+  },
+  Object {
+    "rotation": 1,
+    "x": 6,
+  },
+  Object {
+    "rotation": 2,
+    "x": 6,
+  },
+  Object {
+    "rotation": 3,
+    "x": 6,
+  },
+  Object {
+    "rotation": 0,
+    "x": 7,
+  },
+  Object {
+    "rotation": 1,
+    "x": 7,
+  },
+  Object {
+    "rotation": 2,
+    "x": 7,
+  },
+  Object {
+    "rotation": 3,
+    "x": 7,
+  },
+  Object {
+    "rotation": 1,
+    "x": 8,
+  },
+  Object {
+    "rotation": 2,
+    "x": 8,
+  },
+  Object {
+    "rotation": 3,
+    "x": 8,
+  },
+  Object {
+    "rotation": 2,
+    "x": 9,
+  },
+]
+`;

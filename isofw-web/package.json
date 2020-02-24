@@ -1,0 +1,115 @@
+{
+  "name": "isofw-web",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "./node_modules/.bin/webpack --config ./webpack.config.prod.js || true",
+    "buildExpert": "./node_modules/.bin/webpack --config ./webpack.config.expertData.js  || true",
+    "buildSsr": "./node_modules/.bin/webpack --config ./webpack.config.server.prod.ts  || true",
+    "dev": "../ci/node_modules/.bin/webpack-dev-server --config ./webpack.config.js --port 4201 --host=0.0.0.0 --content-base webpackDist",
+    "devExpert": "../ci/node_modules/.bin/webpack-dev-server --config ./webpack.config.expertData.js --port 4201 --host=0.0.0.0 --content-base webpackDist",
+    "devSsr": "./node_modules/.bin/webpack -w --config ./webpack.config.server.ts"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.3",
+    "@xpfw/data": "^1.0.0-beta.20",
+    "@xpfw/data-bulma": "^1.0.0-beta.18",
+    "@xpfw/data-feathers": "^1.0.0-beta.18",
+    "@xpfw/dm": "^1.0.0-beta.18",
+    "@xpfw/dm-shared": "^1.0.0-beta.18",
+    "@xpfw/form": "^1.0.0-beta.19",
+    "@xpfw/form-bulma": "^1.0.0-beta.18",
+    "@xpfw/form-web": "^1.0.0-beta.18",
+    "@xpfw/permission": "^1.0.0-beta.18",
+    "bulma": "^0.7.4",
+    "fast-json-patch": "^2.1.0",
+    "lodash": "^4.17.11",
+    "mobx": "^5.15.4",
+    "mobx-react-lite": "^1.5.2",
+    "moment": "^2.24.0",
+    "react": "^16.12.0",
+    "react-color": "^2.18.0",
+    "react-dom": "^16.12.0",
+    "react-hammerjs": "^1.0.1",
+    "react-icons": "^3.9.0",
+    "react-loadable": "^5.5.0",
+    "react-pose": "^4.0.10",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-virtualized-auto-sizer": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/extract-text-webpack-plugin": "^3.0.4",
+    "@types/graceful-fs": "^4.1.3",
+    "@types/jest": "^25.1.2",
+    "@types/mini-css-extract-plugin": "^0.9.0",
+    "@types/node": "^13.7.1",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/uglifyjs-webpack-plugin": "^1.1.0",
+    "@types/webpack": "^4.41.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "graceful-fs": "^4.2.3",
+    "jest": "^25.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "react-test-renderer": "^16.12.0",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.1.3",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tslib": "^1.10.0",
+    "typescript": "3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    },
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.ts",
+      "\\.(css|sass|scss)$": "<rootDir>/__mocks__/styleMock.ts",
+      "isofw-node/src(.*)": "<rootDir>/../isofw-node/src$1",
+      "isofw-shared(.*)": "<rootDir>/../isofw-shared$1",
+      "isofw-web(.*)": "<rootDir>/../isofw-web$1",
+      "^react$": "<rootDir>/node_modules/react",
+      "^react-test-renderer$": "<rootDir>/node_modules/react-test-renderer",
+      "^mobx$": "<rootDir>/node_modules/mobx",
+      "^mobx-react-lite$": "<rootDir>/node_modules/mobx-react-lite",
+      "^@xpfw/form$": "<rootDir>/node_modules/@xpfw/form",
+      "^@xpfw/data-tests$": "<rootDir>/node_modules/@xpfw/data-tests",
+      "^@xpfw/data-feathers$": "<rootDir>/node_modules/@xpfw/data-feathers",
+      "^@xpfw/data$": "<rootDir>/node_modules/@xpfw/data",
+      "^@xpfw/test-util$": "<rootDir>/node_modules/@xpfw/test-util"
+    },
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib",
+      "<rootDir>/dist"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

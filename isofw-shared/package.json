@@ -1,0 +1,78 @@
+{
+  "name": "isofw-shared",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/rest-client": "^1.4.7",
+    "@feathersjs/socketio-client": "^1.2.1",
+    "@types/i18next": "^13.0.0",
+    "@types/i18next-sprintf-postprocessor": "0.2.0",
+    "@xpfw/data": "^1.0.0-beta.20",
+    "@xpfw/data-feathers": "^1.0.0-beta.18",
+    "@xpfw/dm": "^1.0.0-beta.16",
+    "@xpfw/dm-shared": "^1.0.0-beta.16",
+    "@xpfw/form": "^1.0.0-beta.19",
+    "@xpfw/form-tests": "^1.0.0-beta.16",
+    "@xpfw/permission": "^1.0.0-beta.18",
+    "ajv": "^6.11.0",
+    "fast-json-patch": "^2.2.1",
+    "i18next": "^19.1.0",
+    "i18next-sprintf-postprocessor": "^0.2.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mobx": "^5.15.4",
+    "mobx-react-lite": "^1.5.2",
+    "moment": "^2.24.0",
+    "react": "^16.12.0",
+    "socket.io-client": "^2.3.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@babel/runtime": "^7.8.4",
+    "@types/jest": "^25.1.2",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-native": "^0.61.15",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/sprintf-js": "^1.1.2",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^25.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    },
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleNameMapper": {
+      "isofw-node(.*)": "<rootDir>/../isofw-node$1",
+      "isofw-shared(.*)": "<rootDir>/../isofw-shared$1",
+      "isofw-web(.*)": "<rootDir>/../isofw-web$1",
+      "^@xpfw/form$": "<rootDir>/node_modules/@xpfw/form",
+      "^@xpfw/data-tests$": "<rootDir>/node_modules/@xpfw/data-tests",
+      "^@xpfw/data-feathers$": "<rootDir>/node_modules/@xpfw/data-feathers",
+      "^@xpfw/data$": "<rootDir>/node_modules/@xpfw/data",
+      "^@xpfw/test-util$": "<rootDir>/node_modules/@xpfw/test-util"
+    },
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib",
+      "<rootDir>/dist"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

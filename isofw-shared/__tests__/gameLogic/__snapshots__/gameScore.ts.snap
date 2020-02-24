@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The GameScore needs some functions to be called for maximum coverage: gamefield snapshot 1`] = `
+"
+o0111o11o1
+00o10o1111
+011o01111o
+o11o0o1000
+oo110o000o
+ooo11oo00o
+o0000oo111
+ooo000010o
+o1111ooo0o
+oooo001o0o
+ooo0011o0o
+oooooo1o0o
+oooooo1o0o
+oooooo1o0o
+1111oo110o
+oo0000111o
+ooo00001oo
+o1111ooooo
+oooo1ooo00
+ooo111oo00
+"
+`;
+
+exports[`The GameScore needs some functions to be called for maximum coverage: player a score 1`] = `-32`;
+
+exports[`The GameScore needs some functions to be called for maximum coverage: player b score 1`] = `-54`;

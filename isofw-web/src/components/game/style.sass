@@ -1,0 +1,42 @@
+$borderGrey: rgba(247,247,247, 1)
+$greyy: rgba(251,251,251, 1)
+
+.greyGradientBg
+  min-height: 100vh
+.gameFieldContainer, .greyGradientBg
+  position: relative
+  background: $greyy
+  background: linear-gradient(90deg, $greyy 0%, $borderGrey 50%, $greyy 100%)
+.tetromino, .block
+  position: absolute
+.middleCircle
+  background-color: white
+  border-radius: 99pt
+  opacity: 0.5
+
+.blockOverlay
+  position: absolute
+  left: 0pt
+  top: 0pt
+  width: 100%
+  height: 100%
+  border: 1pt solid rgba(0,0,0,0.6)
+
+.line
+  position: absolute
+  width: 1px
+  background-color: $borderGrey
+@keyframes hoverBlockAnimation
+  0%
+    transform: scale(1)
+    opacity: 0.5
+  50%
+    transform: scale(1.1)
+    opacity: 1
+  100%
+    transform: scale(1)
+    opacity: 0.5
+
+.hoverBlock
+  animation: hoverBlockAnimation 3s ease
+  animation-iteration-count: infinite

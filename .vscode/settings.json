@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": "./ci/node_modules/typescript/lib",
+    "tslint.autoFixOnSave": true,
+    "tsimporter.doubleQuotes": true,
+    "tsimporter.emitSemicolon": false,
+    "tsimporter.lowImportance": true,
+    "tsimporter.preferRelative": false,
+    "tsimporter.spaceBetweenBraces": true,
+}
