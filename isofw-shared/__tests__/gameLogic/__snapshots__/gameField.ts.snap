@@ -1,5 +1,95 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`The GameField block unavailable: Skipped because block unavailable 1`] = `
+GameLog {
+  "log": Array [
+    Object {
+      "payload": Object {
+        "block": 2,
+        "from": "c",
+      },
+      "type": 0,
+    },
+    Object {
+      "payload": Object {
+        "play_index": 0,
+      },
+      "type": 3,
+    },
+    Object {
+      "payload": Object {
+        "block": 2,
+        "from": "c",
+        "orientation": 1,
+        "x": 0,
+        "y": 1,
+      },
+      "type": 1,
+    },
+    Object {
+      "payload": Object {
+        "block": 1,
+        "from": "d",
+      },
+      "type": 0,
+    },
+    Object {
+      "payload": Object {
+        "play_index": 0,
+      },
+      "type": 3,
+    },
+    Object {
+      "payload": Object {
+        "play_index": 2,
+      },
+      "type": 3,
+    },
+    Object {
+      "payload": Object {
+        "block": 1,
+        "from": "d",
+        "orientation": 0,
+        "x": 2,
+        "y": 0,
+      },
+      "type": 1,
+    },
+    Object {
+      "payload": Object {
+        "block": 1,
+        "from": "a",
+        "reason": 1,
+      },
+      "type": 2,
+    },
+    Object {
+      "payload": Object {
+        "block": 2,
+        "from": "b",
+        "reason": 1,
+      },
+      "type": 2,
+    },
+    Object {
+      "payload": Object {
+        "block": 4,
+        "from": "c",
+      },
+      "type": 0,
+    },
+    Object {
+      "payload": Object {
+        "play_index": 0,
+      },
+      "type": 3,
+    },
+  ],
+}
+`;
+
+exports[`The GameField game should end at some point: connected blocks 1`] = `Array []`;
+
 exports[`The GameField game should end at some point: empty Game 1`] = `
 GameField {
   "blockRestrictions": Object {
@@ -39,6 +129,7 @@ GameField {
     "c": 0,
     "d": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -383,6 +474,7 @@ GameField {
     "c": 0,
     "d": 0,
   },
+  "deterministic_mode": false,
   "gameOver": true,
   "log": GameLog {
     "log": Array [
@@ -392,6 +484,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -412,6 +510,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 4,
           "from": "c",
           "orientation": 2,
@@ -426,6 +530,12 @@ GameField {
           "from": "d",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -446,6 +556,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 0,
           "from": "a",
           "orientation": 1,
@@ -460,6 +576,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -480,6 +602,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 3,
           "from": "c",
           "orientation": 2,
@@ -494,6 +622,12 @@ GameField {
           "from": "d",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -514,6 +648,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 0,
           "from": "a",
           "orientation": 0,
@@ -531,6 +671,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 3,
           "from": "b",
           "orientation": 0,
@@ -548,6 +694,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 4,
           "from": "c",
           "orientation": 2,
@@ -562,6 +714,12 @@ GameField {
           "from": "d",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -582,6 +740,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 3,
           "from": "a",
           "orientation": 1,
@@ -599,6 +763,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 0,
           "from": "b",
           "orientation": 1,
@@ -613,6 +783,12 @@ GameField {
           "from": "c",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -633,6 +809,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 4,
           "from": "d",
           "orientation": 0,
@@ -647,6 +829,12 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -667,6 +855,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 2,
           "from": "b",
           "orientation": 1,
@@ -681,6 +875,12 @@ GameField {
           "from": "c",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -701,6 +901,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 4,
           "from": "d",
           "orientation": 6,
@@ -715,6 +921,12 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -735,6 +947,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 0,
           "from": "b",
           "orientation": 1,
@@ -749,6 +967,12 @@ GameField {
           "from": "c",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -769,6 +993,12 @@ GameField {
       },
       Object {
         "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
           "block": 3,
           "from": "d",
           "orientation": 2,
@@ -783,6 +1013,12 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -890,6 +1126,294 @@ GameField {
 }
 `;
 
+exports[`The GameField game should end at some point: player blocks 1`] = `
+Object {
+  "a": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 0,
+        "y": 0,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 1,
+        "y": 7,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 6,
+        "y": 11,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 7,
+        "y": 17,
+      },
+      "rotation": 7,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 1,
+        "y": 16,
+      },
+      "rotation": 4,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 4,
+        "y": 18,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 1,
+    },
+  ],
+  "b": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 4,
+        "y": 0,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 8,
+        "y": 2,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 1,
+        "y": 8,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 7,
+        "y": 11,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 1,
+        "y": 12,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 6,
+        "y": 12,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 0,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 0,
+        "y": 18,
+      },
+      "rotation": 1,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+  ],
+  "c": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 5,
+        "y": 2,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 2,
+        "y": 3,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 4,
+        "y": 8,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 8,
+        "y": 15,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 2,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 0,
+        "y": 14,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 5,
+        "y": 16,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 1,
+    },
+  ],
+  "d": Array [
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 3,
+        "y": 4,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 2,
+        "y": 6,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 0,
+        "y": 8,
+      },
+      "rotation": 3,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 7,
+        "y": 16,
+      },
+      "rotation": 0,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 2,
+        "y": 15,
+      },
+      "rotation": 6,
+      "touchingBlocks": Array [],
+      "type": 4,
+    },
+    Tetromino {
+      "checkedBlocks": Array [],
+      "from": "",
+      "position": Object {
+        "x": 4,
+        "y": 17,
+      },
+      "rotation": 2,
+      "touchingBlocks": Array [],
+      "type": 3,
+    },
+  ],
+}
+`;
+
 exports[`The GameField game should end at some point: visualized FIeld 1`] = `
 "
 1ooo00o00o
@@ -938,6 +1462,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1000,6 +1525,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1009,6 +1535,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1079,6 +1611,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1088,6 +1621,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1105,6 +1644,48 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 8,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 17,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 8,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1158,6 +1739,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1167,6 +1749,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1184,6 +1772,24 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 8,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1237,6 +1843,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1246,6 +1853,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1263,6 +1876,36 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 8,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 17,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1316,6 +1959,7 @@ GameField {
     "a": 0,
     "b": 0,
   },
+  "deterministic_mode": false,
   "gameOver": false,
   "log": GameLog {
     "log": Array [
@@ -1325,6 +1969,12 @@ GameField {
           "from": "b",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1342,6 +1992,30 @@ GameField {
           "from": "a",
         },
         "type": 0,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 0,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 8,
+        },
+        "type": 3,
+      },
+      Object {
+        "payload": Object {
+          "play_index": 16,
+        },
+        "type": 3,
       },
       Object {
         "payload": Object {
@@ -1363,138 +2037,206 @@ GameField {
 exports[`The GameField should initialize a player on startup: there should be plays available 1`] = `
 Array [
   Object {
+    "block": 3,
+    "globalIndex": 0,
     "rotation": 0,
     "x": 0,
   },
   Object {
+    "block": 3,
+    "globalIndex": 1,
     "rotation": 1,
     "x": 0,
   },
   Object {
+    "block": 3,
+    "globalIndex": 3,
     "rotation": 3,
     "x": 0,
   },
   Object {
+    "block": 3,
+    "globalIndex": 4,
     "rotation": 0,
     "x": 1,
   },
   Object {
+    "block": 3,
+    "globalIndex": 5,
     "rotation": 1,
     "x": 1,
   },
   Object {
+    "block": 3,
+    "globalIndex": 7,
     "rotation": 3,
     "x": 1,
   },
   Object {
+    "block": 3,
+    "globalIndex": 8,
     "rotation": 0,
     "x": 2,
   },
   Object {
+    "block": 3,
+    "globalIndex": 9,
     "rotation": 1,
     "x": 2,
   },
   Object {
+    "block": 3,
+    "globalIndex": 10,
     "rotation": 2,
     "x": 2,
   },
   Object {
+    "block": 3,
+    "globalIndex": 11,
     "rotation": 3,
     "x": 2,
   },
   Object {
+    "block": 3,
+    "globalIndex": 12,
     "rotation": 0,
     "x": 3,
   },
   Object {
+    "block": 3,
+    "globalIndex": 13,
     "rotation": 1,
     "x": 3,
   },
   Object {
+    "block": 3,
+    "globalIndex": 14,
     "rotation": 2,
     "x": 3,
   },
   Object {
+    "block": 3,
+    "globalIndex": 15,
     "rotation": 3,
     "x": 3,
   },
   Object {
+    "block": 3,
+    "globalIndex": 16,
     "rotation": 0,
     "x": 4,
   },
   Object {
+    "block": 3,
+    "globalIndex": 17,
     "rotation": 1,
     "x": 4,
   },
   Object {
+    "block": 3,
+    "globalIndex": 18,
     "rotation": 2,
     "x": 4,
   },
   Object {
+    "block": 3,
+    "globalIndex": 19,
     "rotation": 3,
     "x": 4,
   },
   Object {
+    "block": 3,
+    "globalIndex": 20,
     "rotation": 0,
     "x": 5,
   },
   Object {
+    "block": 3,
+    "globalIndex": 21,
     "rotation": 1,
     "x": 5,
   },
   Object {
+    "block": 3,
+    "globalIndex": 22,
     "rotation": 2,
     "x": 5,
   },
   Object {
+    "block": 3,
+    "globalIndex": 23,
     "rotation": 3,
     "x": 5,
   },
   Object {
+    "block": 3,
+    "globalIndex": 24,
     "rotation": 0,
     "x": 6,
   },
   Object {
+    "block": 3,
+    "globalIndex": 25,
     "rotation": 1,
     "x": 6,
   },
   Object {
+    "block": 3,
+    "globalIndex": 26,
     "rotation": 2,
     "x": 6,
   },
   Object {
+    "block": 3,
+    "globalIndex": 27,
     "rotation": 3,
     "x": 6,
   },
   Object {
+    "block": 3,
+    "globalIndex": 28,
     "rotation": 0,
     "x": 7,
   },
   Object {
+    "block": 3,
+    "globalIndex": 29,
     "rotation": 1,
     "x": 7,
   },
   Object {
+    "block": 3,
+    "globalIndex": 30,
     "rotation": 2,
     "x": 7,
   },
   Object {
+    "block": 3,
+    "globalIndex": 31,
     "rotation": 3,
     "x": 7,
   },
   Object {
+    "block": 3,
+    "globalIndex": 33,
     "rotation": 1,
     "x": 8,
   },
   Object {
+    "block": 3,
+    "globalIndex": 34,
     "rotation": 2,
     "x": 8,
   },
   Object {
+    "block": 3,
+    "globalIndex": 35,
     "rotation": 3,
     "x": 8,
   },
   Object {
+    "block": 3,
+    "globalIndex": 38,
     "rotation": 2,
     "x": 9,
   },

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`heuristic has same values as rust: Best Play choice for log 1`] = `3`;
+
+exports[`heuristic has same values as rust: Best Play choice for log 2`] = `17`;

@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "AGPL-3.0",
+  "scripts": {
+    "test": "./node_modules/.bin/jest -u"
+  },
   "dependencies": {
     "@feathersjs/feathers": "^3.3.1",
     "@feathersjs/rest-client": "^1.4.7",

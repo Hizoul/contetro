@@ -132,7 +132,7 @@ export class GameField {
 
   public canPlaceBlock(block: Tetromino) {
     let current_player = this.log.getCurrentPlayer()
-    if (current_player == null || this.blockRestrictions[current_player][block.type] <= 0) {
+    if (current_player == null || block == null || this.blockRestrictions[current_player][block.type] <= 0) {
       return false
     }
     if (block != null) {

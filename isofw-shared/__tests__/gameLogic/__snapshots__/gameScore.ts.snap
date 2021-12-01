@@ -25,6 +25,6 @@ ooo111oo00
 "
 `;
 
-exports[`The GameScore needs some functions to be called for maximum coverage: player a score 1`] = `-32`;
+exports[`The GameScore needs some functions to be called for maximum coverage: player a score 1`] = `-15`;
 
-exports[`The GameScore needs some functions to be called for maximum coverage: player b score 1`] = `-54`;
+exports[`The GameScore needs some functions to be called for maximum coverage: player b score 1`] = `-14`;
