@@ -332,9 +332,10 @@ export class GameField {
   public chooseFittingPlay(left?: boolean, isMove?: boolean, switchBlock?: boolean) {
     const plays = this.getPossiblePlays()
     let play_index = this.log.getCurrentPlay()
-    let currentBlock = plays[play_index].block
-    let currentRotation = plays[play_index].rotation
-    let currentX = plays[play_index].x
+    let play = plays.length > play_index ? plays[play_index] : plays[0]
+    let currentBlock = play.block
+    let currentRotation = play.rotation
+    let currentX = play.x
     const maxRot = amountRotations[currentBlock]
     const changer = left ? -1 : 1
     let loopedOnce = false

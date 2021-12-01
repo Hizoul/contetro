@@ -10,7 +10,8 @@ const LocalPlayerControl = {
   theme: "player_control",
   selectOptions: [
     {value: 0, label: "Human"},
-    {value: 1, label: "AI (Random)"}
+    {value: 1, label: "AI (Medium / Heuristic)"},
+    {value: 2, label: "AI (Dumb / Random)"}
   ]
 }
 const LocalPlayerField = {
