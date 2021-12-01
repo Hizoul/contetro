@@ -1,0 +1,1 @@
+docker run -it -v=$PWD:/app --network=host node:11-stretch /bin/bash
